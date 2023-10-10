@@ -1,0 +1,23 @@
+.user-input label {
+  display: block;
+  margin-bottom: 1%;
+}
+
+.user-input input {
+  width: 90%;
+  height: 36px;
+  border-radius: 4px;
+  padding-left: 12px;
+  font-weight: normal;
+  border: 1px solid rgb(137, 151, 155);
+  transition: border-color 150ms ease-in-out 0s;
+  outline: none;
+  color: rgb(33, 49, 60);
+  background-color: rgb(255, 255, 255);
+  padding-right: 12px;
+  margin-bottom: 2%;
+}
+
+.user-input input:hover {
+  box-shadow: rgb(234, 231, 238) 0px 0px 0px 3px;
+}

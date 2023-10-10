@@ -1,0 +1,38 @@
+.modal-backdrop {
+  background-color: #00000097;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+
+.modal-body {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 30%;
+  background-color: white;
+  padding-bottom: 1%;
+  border-radius: 5px;
+}
+
+.modal-body__heading {
+  background-color: #7410d1;
+  font-size: 1.4rem;
+  color: white;
+  padding: 8px;
+  border-radius: 5px 5px 0 0;
+}
+
+.modal-body__message {
+  font-size: 1.3rem;
+  margin-left: 2%;
+  margin-top: 3%;
+}
+
+.modal-body__actions {
+  display: flex;
+  margin-top: 2%;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
