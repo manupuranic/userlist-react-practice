@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, Fragment } from "react";
 import "./App.css";
 
 import UserInput from "./components/UserInput/UserInput";
@@ -31,14 +31,14 @@ function App() {
   }
 
   return (
-    <div>
-      {!isValid && <Modal closeModal={toggleValid} message={message} />}
+    <Fragment>
+      {!isValid && <Modal onCloseModal={toggleValid} message={message} />}
       <h1 className="title">User List</h1>
       <Card>
         <UserInput openModal={toggleValid} onAddUser={onAddUser} />
       </Card>
       <Card className="userlist">{content}</Card>
-    </div>
+    </Fragment>
   );
 }
 
